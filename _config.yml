@@ -84,3 +84,17 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+
+collections:
+  connecttech2018:
+    output: true
+    permalink: /:collection/:title
+
+defaults:
+  - scope:
+      path: ""
+      type: "connecttech2018"
+    values:
+      layout: "page"
+      title: Connect Tech 2018
+      permalink: /:collection/:title
